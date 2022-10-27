@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'imported';
+    src: url('./fonts/Poppins-Light.ttf');
+    // format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: inherit;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#root {
+    font-family: "imported", monospace;
+}
+
+a {
+    color: inherit;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 0px none #8574a3;
+    border-radius: 50px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fff
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #000
+}
+
+::-webkit-scrollbar-track {
+    background: #666;
+    border: 0px none #fff;
+    border-radius: 50px
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #666
+}
+
+::-webkit-scrollbar-track:active {
+    background: #333
+}
+
+::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0, 0)
+}
