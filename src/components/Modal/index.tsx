@@ -1,5 +1,5 @@
-// import React from 'react';
 import "./index.scss";
+
 import img0 from "../../img/avatar.png";
 
 import { Close } from "../Icons";
