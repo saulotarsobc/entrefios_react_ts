@@ -3,7 +3,6 @@ import "./index.scss";
 import imgAvatar from "../../img/avatar.png";
 import Item from "../../components/Item";
 import Title from "../../components/Title";
-
 import definitions from "../../api/definitions.json";
 
 export default function Home() {

@@ -1,0 +1,21 @@
+div#subtitle {
+    background-color: #fff;
+    height: 35px;
+    // margin: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 98%;
+    max-width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.16s ease-in-out;
+    opacity: .8;
+
+    &:hover {
+        color: rgb(59, 59, 59);
+        opacity: 1;
+    }
+
+}

@@ -3,14 +3,13 @@ import "./index.scss";
 import Images from "../../api/Images";
 import Thumb from "../../components/Thumb";
 import Modal from "../../components/Modal";
+import SubTitle from "../../components/SubTitle";
 
 function Galery() {
   return (
     <section id="galery">
       <Modal />
-
-      <label id="title">Galeria</label>
-
+      <SubTitle subtitle="Galeria" />
       <div className="galery_wrap">
         {Images.map((image, index) => (
           <Thumb

@@ -1,36 +1,13 @@
 section#galery {
-    background-color: #8574A3;
-    min-height: 100vh;
+    height: calc(100vh - 80px);
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    padding-bottom: 80px;
+    background-color: #8574A3;
 
     overflow-y: scroll;
-
-    label#title {
-        background-color: #fff;
-        height: 35px;
-        margin: 15px 0;
-        border-radius: 8px;
-        text-align: center;
-        width: 98%;
-        max-width: 480px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-        transition: all 0.16s ease-in-out;
-        opacity: .8;
-
-        &:hover {
-            color: rgb(59, 59, 59);
-            opacity: 1;
-        }
-
-    }
 
     .galery_wrap {
         // padding: 15px;
