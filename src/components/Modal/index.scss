@@ -4,10 +4,9 @@ div#modal-wrap {
     display: none; //js
     align-items: center;
     justify-content: center;
-    background-color: #29292964;
+    background-color: #292929a1;
     z-index: 100;
     position: absolute;
-
 
     #modal {
         background-color: #7b48d4;
@@ -16,7 +15,6 @@ div#modal-wrap {
         border-radius: 10px;
 
         #close-modal {
-            // background-color: #262626;
             background-color: #fff;
             width: 35px;
             height: 35px;

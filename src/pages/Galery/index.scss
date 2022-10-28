@@ -2,20 +2,20 @@ section#galery {
     background-color: #8574A3;
     min-height: 100vh;
     width: 100vw;
-    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
+    padding-bottom: 80px;
 
-    label#link_wrap {
+    label#title {
         background-color: #fff;
         height: 35px;
-        margin-bottom: 15px;
+        margin: 15px 0;
         border-radius: 8px;
         text-align: center;
-        width: 100%;
-        max-width: 400px;
+        width: 98%;
+        max-width: 480px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -28,12 +28,6 @@ section#galery {
             opacity: 1;
         }
 
-        #link {
-            color: #000000;
-            padding: 4px 400px;
-            font-weight: bold;
-        }
-
     }
 
     .galery_wrap {
@@ -41,9 +35,9 @@ section#galery {
         background-color: rgb(39, 39, 39);
         color: white;
         border-radius: 8px;
-        width: 100%;
-        min-width: 320px;
-        max-width: 400px;
+        width: 98%;
+        // min-width: 320px;
+        max-width: 480px;
 
         .thumb {
             height: 85px;

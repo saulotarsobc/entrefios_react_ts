@@ -1,6 +1,10 @@
-// import React from "react";
+type TypeProps = {
+  link: string;
+  target: string;
+  title: string;
+};
 
-export default function Item(props) {
+export default function Item(props: TypeProps) {
   return (
     <a href={props.link} target={props.target} rel="noreferrer">
       <li className="link_iten">

@@ -1,0 +1,29 @@
+footer#footer {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    z-index: 100;
+    bottom: 0px;
+    // background-color: #8574A3d5;
+    background-color: #ffffffd5;
+
+    #wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 100%;
+
+        .link-wrap {
+            // background-color: rebeccapurple;
+            padding: 10px;
+            border-radius: 50%;
+
+            .link {
+                svg {
+                    height: 40px;
+                    fill: #8574A3;
+                }
+            }
+        }
+    }
+}

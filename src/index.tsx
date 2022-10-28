@@ -3,6 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Home from "./pages/Home";
 import Galery from "./pages/Galery";
+import Footer from "./components/Footer";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -16,6 +17,7 @@ root.render(
         <Route path="/" element={<Home />} />
         <Route path="/galery" element={<Galery />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );
