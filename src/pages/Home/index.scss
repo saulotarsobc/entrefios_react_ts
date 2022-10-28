@@ -1,11 +1,13 @@
 section#home {
     position: relative;
-    height: 100%;
+    height: calc(100vh - 60px);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #8574A3d5;
     background-image: url('../../img/background.jpg');
+
+    overflow-y: scroll;
 
     main {
         backdrop-filter: blur(2px);
@@ -16,7 +18,7 @@ section#home {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 100vh;
+        height: calc(100vh - 60px);
 
         #avatar {
             height: 150px;
@@ -27,7 +29,7 @@ section#home {
         }
 
         #title {
-            background-color: #8574A3; //js
+            background-color: #8574A3;
             color: #fff;
             padding: 5px 20px;
             border-radius: 8px;
@@ -49,7 +51,7 @@ section#home {
             }
 
             .link_iten {
-                background-color: #8574A3d5; //js
+                background-color: #8574A3d5;
                 color: white;
                 width: 330px;
                 padding: 5px 5px;
@@ -60,7 +62,7 @@ section#home {
                 font-weight: bold;
 
                 &:hover {
-                    background-color: #8574A3; //js
+                    background-color: #8574A3;
                     transform: scale(1.05);
                     padding: 5px 10px;
                     color: rgb(218, 218, 218);

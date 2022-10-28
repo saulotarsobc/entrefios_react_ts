@@ -1,6 +1,8 @@
-import React from "react";
+type ItenType = {
+  title: string;
+};
 
-function Iten(props) {
+function Iten(props: ItenType) {
   return <div id="title">{props.title}</div>;
 }
 

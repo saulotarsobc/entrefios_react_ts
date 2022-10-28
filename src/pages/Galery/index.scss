@@ -31,18 +31,18 @@ section#galery {
     }
 
     .galery_wrap {
-        padding: 15px;
+        // padding: 15px;
         background-color: rgb(39, 39, 39);
         color: white;
         border-radius: 8px;
-        width: 98%;
+        // width: 98%;
         // min-width: 320px;
         max-width: 480px;
 
         .thumb {
             height: 85px;
             width: 85px;
-            margin: 4px;
+            margin: 5px;
             transition: scale .2s ease-in-out;
 
             &:hover {

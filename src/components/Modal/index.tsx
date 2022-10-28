@@ -7,7 +7,8 @@ import { Whatsapp } from "../Icons/index";
 
 function index() {
   function closeModal() {
-    document.querySelector("#modal-wrap").style.display = "none";
+    const modalWrap = document.querySelector("#modal-wrap") as HTMLDivElement;
+    modalWrap.style.display = "none";
   }
 
   return (
