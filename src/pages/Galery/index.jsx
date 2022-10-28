@@ -9,9 +9,7 @@ function Galery() {
     <section id="galery">
       <Modal />
 
-      <label id="title">
-        Galeria
-      </label>
+      <label id="title">Galeria</label>
 
       <div className="galery_wrap">
         {Images.map((image, index) => (

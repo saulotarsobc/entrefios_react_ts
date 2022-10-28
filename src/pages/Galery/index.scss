@@ -8,6 +8,8 @@ section#galery {
     position: relative;
     padding-bottom: 80px;
 
+    overflow-y: scroll;
+
     label#title {
         background-color: #fff;
         height: 35px;
