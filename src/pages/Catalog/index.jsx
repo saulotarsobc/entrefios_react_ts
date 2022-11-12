@@ -5,12 +5,12 @@ import Thumb from "../../components/Thumb";
 import Modal from "../../components/Modal";
 import SubTitle from "../../components/SubTitle";
 
-function Galery() {
+function Catalog() {
   return (
-    <section id="galery">
+    <section id="catalog">
       <Modal />
-      <SubTitle subtitle="Galeria" />
-      <div className="galery_wrap">
+      <SubTitle subtitle="Catálogo" />
+      <div className="catalog_wrap">
         {Images.map((image, index) => (
           <Thumb
             key={index}
@@ -24,4 +24,4 @@ function Galery() {
   );
 }
 
-export default Galery;
+export default Catalog;

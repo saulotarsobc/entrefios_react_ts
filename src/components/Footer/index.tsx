@@ -1,5 +1,5 @@
 import "./index.scss";
-import { Galery, Home } from "../Icons";
+import { Catalog, Home } from "../Icons";
 import { Link } from "react-router-dom";
 
 function index() {
@@ -10,12 +10,14 @@ function index() {
           <Link to="/" className="link">
             <Home />
           </Link>
+          <div className="link-label">Início</div>
         </div>
 
         <div className="link-wrap">
-          <Link to="/galery" className="link">
-            <Galery />
+          <Link to="/catalogo" className="link">
+            <Catalog />
           </Link>
+          <div className="link-label">Catálogo</div>
         </div>
       </div>
     </footer>

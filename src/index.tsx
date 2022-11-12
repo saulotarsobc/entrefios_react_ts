@@ -2,7 +2,7 @@ import "./index.scss";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Home from "./pages/Home";
-import Galery from "./pages/Galery";
+import Catalog from "./pages/Catalog";
 import Footer from "./components/Footer";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -15,7 +15,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/galery" element={<Galery />} />
+        <Route path="/catalogo" element={<Catalog />} />
       </Routes>
       <Footer />
     </BrowserRouter>

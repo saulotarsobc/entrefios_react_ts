@@ -4,6 +4,7 @@ import imgAvatar from "../../img/avatar.png";
 import Item from "../../components/Item";
 import Title from "../../components/Title";
 import definitions from "../../api/definitions.json";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -24,9 +25,9 @@ export default function Home() {
               ))}
             </ul>
           </div>
-          {/* <Link to="/galery" id="galery_btn">
-            Galeria
-          </Link> */}
+          {<Link to="/catalogo" id="catalogo_btn">
+            Catálogo
+          </Link>}
         </div>
       </main>
     </section>

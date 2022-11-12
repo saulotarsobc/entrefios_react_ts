@@ -4,8 +4,8 @@ type SubTitleTypes = {
   subtitle: string;
 };
 
-function index(props: SubTitleTypes) {
+function SubTitle(props: SubTitleTypes) {
   return <div id="subtitle">{props.subtitle}</div>;
 }
 
-export default index;
+export default SubTitle;

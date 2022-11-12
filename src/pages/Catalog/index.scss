@@ -1,4 +1,4 @@
-section#galery {
+section#catalog {
     height: calc(100vh - 80px);
     width: 100vw;
     display: flex;
@@ -9,7 +9,7 @@ section#galery {
 
     overflow-y: scroll;
 
-    .galery_wrap {
+    .catalog_wrap {
         // padding: 15px;
         background-color: rgb(39, 39, 39);
         color: white;
@@ -17,6 +17,7 @@ section#galery {
         // width: 98%;
         // min-width: 320px;
         max-width: 480px;
+        margin-top: 5px;
 
         .thumb {
             height: 85px;
@@ -37,7 +38,7 @@ section#galery {
         }
     }
 
-    .galery_wrap {
+    .catalog_wrap {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
