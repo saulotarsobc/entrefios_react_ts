@@ -34,6 +34,7 @@ function Catalog() {
           />
         ))}
       </div>
+      
     </section>
   );
 }
