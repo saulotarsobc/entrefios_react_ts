@@ -6,16 +6,13 @@ section#catalog {
     align-items: center;
     position: relative;
     background-color: #8574A3;
-
     overflow-y: scroll;
 
     .catalog_wrap {
-        // padding: 15px;
         background-color: rgb(39, 39, 39);
         color: white;
         border-radius: 8px;
-        // width: 98%;
-        // min-width: 320px;
+        width: 98%;
         max-width: 480px;
         margin-top: 5px;
 
